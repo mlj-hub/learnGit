@@ -8,6 +8,7 @@ public:
     ~Git(){}
 private:
     int * HEAD;
+    bool is_push;
     int number;
 };
 
